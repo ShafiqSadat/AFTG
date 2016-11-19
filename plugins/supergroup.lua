@@ -70,7 +70,7 @@ local function check_member_super(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = msg.to.id
       save_data(_config.moderation.data, data)
-	  local text = '<i>✨SuperGroup has been added!(5.3)✨\n✨LolliPop🍭 Version is a delicious update✨</i>'
+	  local text = '<i>✨SuperGroup has been added!(AF)✨\n✨ Thank you for choising @AFBots ✨</i>'
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
@@ -94,7 +94,7 @@ local function check_member_superrem(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = nil
       save_data(_config.moderation.data, data)
-	  local text = '<i>✨SuperGroup has been removed!(5.3)✨</i>'
+	  local text = '<i>✨SuperGroup has been removed!(AF)✨</i>'
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
