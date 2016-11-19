@@ -16,7 +16,7 @@ local function check_member_super(cb_extra, success, result)
   local data = cb_extra.data
   local msg = cb_extra.msg
   if success == 0 then
-	send_large_msg(receiver, "Promote me to admin first!")
+	send_large_msg(receiver, "ابتدا منو ادمین کیند")
   end
   for k,v in pairs(result) do
     local member_id = v.peer_id
@@ -70,7 +70,7 @@ local function check_member_super(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = msg.to.id
       save_data(_config.moderation.data, data)
-	  local text = '<i>✨سوپر گروه اضافه شد!</i><b>(5.3)</b>✨\n<i>✨طعم مدیریت با آبنبات چوبی🍭 را بچشید✨</i>'
+	  local text = '<i>✨سوپر گروه اضافه شد!</i><b>(5.3)</b>✨\n<i>✨با تشکر از شما برای انتخاب بات های ای اف✨</i>'
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
@@ -94,7 +94,7 @@ local function check_member_superrem(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = nil
       save_data(_config.moderation.data, data)
-	  local text = '<i>✨سوپر گروه حذف شد!(5.3)✨</i>'
+	  local text = '<i>✨سوپر گروه حذف شد!(ای اف)✨</i>'
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
