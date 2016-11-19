@@ -13,8 +13,8 @@ do
 
 function run(msg, matches)
   return [[ <b>
-✨Jove English Help V5.3✨
-✨Flavored🍭Lollipop✨
+✨ English Help ✨
+✨@AFBots_Admin✨
 🔆Customization SuperGroup:🔆
 💭lock
 (links-contacts-spam-arabic-member-rtl-tgservice-sticker-tag-emoji-english-forward-badword-webpage-media-share-bots-number-poker-audio-photo-video-text-all-gifs-inline-cmd)
@@ -72,9 +72,10 @@ function run(msg, matches)
 🖌rmsg {number}
 🖌clean banlist
 〰〰〰〰〰〰〰
-☑️ #Jove V5.3 LolliPop
-✨Titan Zeus✨
-✨General Site: SmartTG.Ir ✨
+☑️ برای ارتباط با ادمین
+✨@AFBots_Admin✨
+☑️ ریپورتی ها   
+✨َ@AFAdmin_bot✨
 </b>]]
 end
 
