@@ -235,20 +235,13 @@ function create_config( )
 	"serverinfo",
 	"supergroup",
 	"supergroups_fa",
-        "tools",
-	"version"
+        "tools"
     },
     vip_users = {}, --vip users
-    sudo_users = {218722292,204181165,247473926,68853039,255452158,tonumber(our_id)},--Sudo users
+    sudo_users = {113566842},--Sudo users
     support_gp = {},--Support id
     moderation = {data = 'data/adv.json'},
     about_text = [[*IN THE NAME OF ALLAH*
-This is an original bot and based on (Jove, version 5.3 final).
-Copyright all right reserved and you must respect all laws.
-
-Channel: @JoveCH
-Messenger: @JoveTGBot
-Site: http://SmartTG.ir
 ]],
     --Start rate:
     Group_rate = [[]],
